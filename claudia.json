@@ -1,0 +1,10 @@
+{
+  "lambda": {
+    "role": "slack-randomizer-executor",
+    "name": "slack-randomizer",
+    "region": "us-east-2"
+  },
+  "api": {
+    "id": "nh1y4nb7ml"
+  }
+}

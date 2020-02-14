@@ -1,0 +1,29 @@
+{
+  "name": "slack-randomizer",
+  "version": "1.0.0",
+  "description": "A custom Slack intergration to provide a random name.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "claudia-generate": "claudia generate-serverless-express-proxy --version dev --express-module app",
+    "claudia-create": "claudia create --handler lambda.handler --deploy-proxy-api --region us-east-2 --profile claudia",
+    "claudia-update": "claudia update --profile claudia"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TerrenceMM2/Slack-Randomizer.git"
+  },
+  "author": "Terrence Mahnken",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TerrenceMM2/Slack-Randomizer/issues"
+  },
+  "homepage": "https://github.com/TerrenceMM2/Slack-Randomizer#readme",
+  "dependencies": {
+    "aws-serverless-express": "^3.3.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "claudia": "^5.12.0"
+  }
+}
