@@ -10,4 +10,4 @@ To randomly generate an item from a supplied list.
 - [Claudia](https://claudiajs.com/) - Automation tool to deploy Node applications to AWS Lambda and API Gateway
 
 ### Author 
-* **Terrence Mahnken** - [LinkedIn](https://www.linkedin.com/in/terrencemahnken/) | [Twitter](https://twitter.com/TerrenceMahnken) | [Personal Portfolio](https://terrence.codes)
+* **Terrence Mahnken** - [LinkedIn](https://www.linkedin.com/in/terrencemahnken/) | [Twitter](https://twitter.com/TerrenceMahnken) | [Personal Portfolio](https://terrence.codes)ush
