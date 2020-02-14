@@ -1,3 +1,5 @@
+// Execute `node app.local.js` to run the app server locally.
+
 'use strict'
 
 const app = require('./app');
