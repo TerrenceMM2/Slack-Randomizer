@@ -21,6 +21,7 @@
   "homepage": "https://github.com/TerrenceMM2/Slack-Randomizer#readme",
   "dependencies": {
     "aws-serverless-express": "^3.3.6",
+    "axios": "^0.19.2",
     "express": "^4.17.1"
   },
   "devDependencies": {
