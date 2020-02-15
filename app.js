@@ -11,8 +11,7 @@ const students = require("./students.js")
 app.get("/", (req, res) => {
     const randomNum = Math.floor(Math.random() * students.length);
     res.json({
-        "text": students[randomNum].firstName + " " + students[randomNum].lastName,
-        "response_type": "in_channel"
+        "text": students[randomNum].firstName + " " + students[randomNum].lastName
     });
 })
 
